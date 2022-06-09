@@ -1,7 +1,10 @@
-# weave_em
+# Follow-Up of GW Events Using WEAVE
 
-Steps taken for WEAVE observations:
+Steps:
 
 1. Generating the FITS catalogue template 
-2. Defining (approximate) field centers 
-3. Populating the FITS catalogue 
+2. Identifying sources
+    - S200129m
+    - S190814bv
+4. Defining (approximate) field centers 
+5. Populating the FITS catalogue 
