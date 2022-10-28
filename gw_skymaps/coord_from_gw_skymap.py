@@ -18,7 +18,7 @@ from astropy.io import ascii
 import matplotlib.pyplot as plt
 
 '''
-## Program to effectively create ra,dec for GAIA GOST tool from the given GW map
+## Program to effectively create RA, Dec coordinates from a given GW map
 ##-------------------------------------------------------------------
 ##--------------------------------------------------------------------
 '''
@@ -76,5 +76,6 @@ plt.xlabel('RA (deg)')
 plt.ylabel('Dec (deg)')
 plt.show()
 
+### Edit this line
 ascii.write([fin['hp'],fin['ra'],fin['dec']], 'S190814bv-90probtest.csv', format='csv', fast_writer=False,  overwrite =True)  
 
